@@ -28,7 +28,7 @@ disqus:
 
 # google analytics 设置
 ga:
-  id: UA-54767140-1
+  id: UA-54767140-11111111
   url: oneandzeros.github.io
 
 # Build settings
