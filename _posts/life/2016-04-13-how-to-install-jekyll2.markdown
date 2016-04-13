@@ -2,7 +2,7 @@
 layout: post
 title:  "开博123"
 date:   2016-04-12 16:43:26
-categories: 技术
+categories: 生活
 ---
 
 ### 为什么要开博？
@@ -16,10 +16,3 @@ categories: 技术
 
 ### 感谢
 非常感谢 [yansu](http://yansu.org/) 同学提供的文章，我的博客框架是从你那里搬来的。感谢 [jekyll](http://jekyllrb.com/) 与 [github](https://pages.github.com/) 。
-
-### 问题2 rvm is not a function
-
-安装jekyll时会提示rvm is not a function
-参考 https://ruby-china.org/topics/3705
-https://rvm.io/integration/gnome-terminal
-在terminal中勾选“以登陆shell方式允许命令”后重启terminal就可以继续了。
