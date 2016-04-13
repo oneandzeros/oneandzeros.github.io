@@ -17,4 +17,4 @@ categories: 生活
 这里是我的个人空间。如有冒犯请及时联系沟通。
 
 ### 感谢
-非常感谢 [yansu](htttp://yansu.org/) 同学提供的文章，我的博客框架是从你那里搬来的。感谢 [jekyll](http://jekyllrb.com/) 与 [github](https://pages.github.com/) 。
+非常感谢 [yansu](http://yansu.org/) 同学提供的文章，我的博客框架是从你那里搬来的。感谢 [jekyll](http://jekyllrb.com/) 与 [github](https://pages.github.com/) 。
