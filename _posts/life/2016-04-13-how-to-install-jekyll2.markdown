@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "开博客一二三"
-date:   2016-04-13 16:34:01
-categories: 生活
+title:  "开博123"
+date:   2016-04-12 16:43:26
+categories: 技术
 ---
-
-
 
 ### 为什么要开博？
 其实早在13年的时候就想要做这件事情了。那时候还在非洲，当时公司还有一个黑人小伙要我给他建个人网站，但是苦于工作时间较忙，另外网络不畅，也就不了了之了。
@@ -18,3 +16,10 @@ categories: 生活
 
 ### 感谢
 非常感谢 [yansu](http://yansu.org/) 同学提供的文章，我的博客框架是从你那里搬来的。感谢 [jekyll](http://jekyllrb.com/) 与 [github](https://pages.github.com/) 。
+
+### 问题2 rvm is not a function
+
+安装jekyll时会提示rvm is not a function
+参考 https://ruby-china.org/topics/3705
+https://rvm.io/integration/gnome-terminal
+在terminal中勾选“以登陆shell方式允许命令”后重启terminal就可以继续了。
