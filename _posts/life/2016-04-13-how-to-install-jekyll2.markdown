@@ -1,81 +1,20 @@
 ---
 layout: post
-title:  "安装jekyll准备环境"
-date:   2016-04-12 16:43:26
-categories: 技术
+title:  "开博客一二三"
+date:   2016-04-13 16:34:01
+categories: 生活
 ---
-参考 [安装jekyll准备](http://www.cnblogs.com/ee2213/p/3915243.html?utm_source=tuicool&utm_medium=referral)|[nodejs下载](https://nodejs.org/en/)
 
 
 
+### 为什么要开博？
+其实早在13年的时候就想要做这件事情了。那时候还在非洲，当时公司还有一个黑人小伙要我给他建个人网站，但是苦于工作时间较忙，另外网络不畅，也就不了了之了。
 
-### 问题1 i386sudo
-在准备安装ruby时 一直报错，提示apt-get 命令有问题
+后来回国之后在阿里云上用[WORDPRESS](https://wordpress.org/)搭了个人空间，但是没有花太多时间维护，到期后便没有再续费。其实主要原因还是觉得个人站点没必要花那么多钱，毕竟不是企业商用。
 
-然后我执行了一下sudo apt-get update 确实出现了如下问题
+工作阶段一直用着EVERNOTE，虽然很方便，记录了一些工作、学习和生活中的事情。但是只是自己写写，基本没有再去翻看，只有需要用到时才会去查找。开博同样是为了记录，不过是再将记录的内容整理一下，梳理内容使其更有调理符合逻辑。现在的生活中信息碎片化太严重，自己写写整理也许更为方便使用吧。
 
-	忽略 http://mirrors.yun-idc.com trusty InRelease
-	命中 http://mirrors.yun-idc.com trusty-updates InRelease
-	命中 http://mirrors.yun-idc.com trusty-backports InRelease
-	命中 http://mirrors.yun-idc.com trusty-security InRelease
-	命中 http://mirrors.yun-idc.com trusty Release.gpg
-	命中 http://mirrors.yun-idc.com trusty-updates/main amd64 Packages
-	忽略 http://dl.google.com stable InRelease
-	命中 http://mirrors.yun-idc.com trusty-updates/restricted amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty-updates/universe amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty-updates/main i386 Packages
-	命中 http://mirrors.yun-idc.com trusty-updates/restricted i386 Packages
-	命中 http://mirrors.yun-idc.com trusty-updates/universe i386 Packages
-	命中 http://mirrors.yun-idc.com trusty-backports/main amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty-backports/restricted amd64 Packages
-	命中 http://dl.google.com stable Release.gpg
-	命中 http://mirrors.yun-idc.com trusty-backports/universe amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty-backports/main i386 Packages
-	命中 http://mirrors.yun-idc.com trusty-backports/restricted i386 Packages
-	命中 http://mirrors.yun-idc.com trusty-backports/universe i386 Packages
-	命中 http://mirrors.yun-idc.com trusty-security/main amd64 Packages
-	命中 http://dl.google.com stable Release
-	命中 http://mirrors.yun-idc.com trusty-security/restricted amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty-security/universe amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty-security/main i386 Packages
-	命中 http://mirrors.yun-idc.com trusty-security/restricted i386 Packages
-	命中 http://dl.google.com stable/main amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty-security/universe i386 Packages
-	命中 http://mirrors.yun-idc.com trusty Release
-	命中 http://mirrors.yun-idc.com trusty/main amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty/restricted amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty/universe amd64 Packages
-	命中 http://mirrors.yun-idc.com trusty/main i386 Packages
-	命中 http://mirrors.yun-idc.com trusty/restricted i386 Packages
-	命中 http://mirrors.yun-idc.com trusty/universe i386 Packages
-	W: 无法下载 http://mirrors.yun-idc.com/ubuntu/dists/trusty-updates/InRelease Unable to find expected entry 'main/binary-i386sudo/Packages' in Release file (Wrong sources.list entry or malformed file)
+这里是我的个人空间。如有冒犯请及时联系沟通。
 
-	W: 无法下载 http://mirrors.yun-idc.com/ubuntu/dists/trusty-backports/InRelease Unable to find expected entry 'main/binary-i386sudo/Packages' in Release file (Wrong sources.list entry or malformed file)
-
-	W: 无法下载 http://mirrors.yun-idc.com/ubuntu/dists/trusty-security/InRelease Unable to find expected entry 'main/binary-i386sudo/Packages' in Release file (Wrong sources.list entry or malformed file)
-
-	W: 无法下载 http://mirrors.yun-idc.com/ubuntu/dists/trusty/Release Unable to find expected entry 'main/binary-i386sudo/Packages' in Release file (Wrong sources.list entry or malformed file)
-
-	W: 无法下载 http://dl.google.com/linux/deb/dists/stable/Release Unable to find expected entry 'main/binary-i386/Packages' in Release file (Wrong sources.list entry or malformed file)
-
-	E: Some index files failed to download. They have been ignored, or old ones used instead.
-
-解决这个问题的过程很艰辛，下面只说最后结果：
-
-1. 去掉软件和更新中的勾选：有版权和合法性问题的软件
-2. 在/etc/apt/目录下找到更新源文件，注释掉第三方的源，类似上面“http://dl.google.com/..”的源。
-3. 系统架构中删除i386sudo
-
-	dpkg --print-foreign-architectures   
-	dpkg --remove-architecture i386sudo
-
-删除sudo 后重新执行命令 sudo apt-get update  成功！
-
-------
-
-### 问题2 rvm is not a function
-
-安装jekyll时会提示rvm is not a function
-参考 https://ruby-china.org/topics/3705
-https://rvm.io/integration/gnome-terminal
-在terminal中勾选“以登陆shell方式允许命令”后重启terminal就可以继续了。
+### 感谢
+非常感谢 [yansu](http://yansu.org/) 同学提供的文章，我的博客框架是从你那里搬来的。感谢 [jekyll](http://jekyllrb.com/) 与 [github](https://pages.github.com/) 。
