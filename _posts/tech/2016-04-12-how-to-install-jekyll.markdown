@@ -9,18 +9,18 @@ categories: 技术
 
 
 
-###问题1 i386sudo
+### 问题1 i386sudo
 在准备安装ruby时 一直报错，提示apt-get 命令有问题
 
 然后我执行了一下sudo apt-get update 确实出现了如下问题
 
 	忽略 http://mirrors.yun-idc.com trusty InRelease
 	命中 http://mirrors.yun-idc.com trusty-updates InRelease
-	命中 http://mirrors.yun-idc.com trusty-backports InRelease 
-	命中 http://mirrors.yun-idc.com trusty-security InRelease 
-	命中 http://mirrors.yun-idc.com trusty Release.gpg 
+	命中 http://mirrors.yun-idc.com trusty-backports InRelease
+	命中 http://mirrors.yun-idc.com trusty-security InRelease
+	命中 http://mirrors.yun-idc.com trusty Release.gpg
 	命中 http://mirrors.yun-idc.com trusty-updates/main amd64 Packages
-	忽略 http://dl.google.com stable InRelease 
+	忽略 http://dl.google.com stable InRelease
 	命中 http://mirrors.yun-idc.com trusty-updates/restricted amd64 Packages
 	命中 http://mirrors.yun-idc.com trusty-updates/universe amd64 Packages
 	命中 http://mirrors.yun-idc.com trusty-updates/main i386 Packages
@@ -28,18 +28,18 @@ categories: 技术
 	命中 http://mirrors.yun-idc.com trusty-updates/universe i386 Packages
 	命中 http://mirrors.yun-idc.com trusty-backports/main amd64 Packages
 	命中 http://mirrors.yun-idc.com trusty-backports/restricted amd64 Packages
-	命中 http://dl.google.com stable Release.gpg 
+	命中 http://dl.google.com stable Release.gpg
 	命中 http://mirrors.yun-idc.com trusty-backports/universe amd64 Packages
 	命中 http://mirrors.yun-idc.com trusty-backports/main i386 Packages
 	命中 http://mirrors.yun-idc.com trusty-backports/restricted i386 Packages
 	命中 http://mirrors.yun-idc.com trusty-backports/universe i386 Packages
 	命中 http://mirrors.yun-idc.com trusty-security/main amd64 Packages
-	命中 http://dl.google.com stable Release 
+	命中 http://dl.google.com stable Release
 	命中 http://mirrors.yun-idc.com trusty-security/restricted amd64 Packages
 	命中 http://mirrors.yun-idc.com trusty-security/universe amd64 Packages
 	命中 http://mirrors.yun-idc.com trusty-security/main i386 Packages
 	命中 http://mirrors.yun-idc.com trusty-security/restricted i386 Packages
-	命中 http://dl.google.com stable/main amd64 Packages 
+	命中 http://dl.google.com stable/main amd64 Packages
 	命中 http://mirrors.yun-idc.com trusty-security/universe i386 Packages
 	命中 http://mirrors.yun-idc.com trusty Release
 	命中 http://mirrors.yun-idc.com trusty/main amd64 Packages
@@ -73,7 +73,7 @@ categories: 技术
 
 ------
 
-###问题2 rvm is not a function
+### 问题2 rvm is not a function
 
 安装jekyll时会提示rvm is not a function
 参考 https://ruby-china.org/topics/3705
