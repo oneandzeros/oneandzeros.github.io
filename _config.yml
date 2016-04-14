@@ -4,7 +4,7 @@ email: tobinok@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tobin的博客 三胖他爹
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://oneandzeros.github.io" # the base hostname & protocol for your site
+url: "http://tobinok.com" # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 
 # Sidebar filter
@@ -29,7 +29,7 @@ disqus:
 # google analytics 设置
 ga:
   id: UA-54767140-11111111
-  url: oneandzeros.github.io
+  url: tobinok.com
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
