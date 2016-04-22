@@ -19,21 +19,22 @@ memcache是高性能，分布式的内存对象缓存系统，用于在动态应
 下载后，将其上传到了`/home/blue/`下面
 
 执行以下命令
+```bash
+cd /home/blue
+tar zxvf memcached-1.4.5.tar.gz
+tar zxvf libevent-1.4.14b-stable.tar.gz
+#安装libevent
+cd libevent-1.4.14b-stable
+./configure --prefix=/home/liuzhy/libevent-1.4.14b-stable
+make
+make install
 
-    cd /home/blue
-    tar zxvf memcached-1.4.5.tar.gz
-    tar zxvf libevent-1.4.14b-stable.tar.gz
-    #安装libevent
-    cd libevent-1.4.14b-stable
-    ./configure --prefix=/home/liuzhy/libevent-1.4.14b-stable
-    make
-    make install
-
-    #安装memcache
-    cd /home/blue/memcached-1.4.5
-    ./configure --prefix=/home/blue/memcached-1.4.5 --with-libevent=/home/blue/libevent-1.4.14b
-    make
-    make install
+#安装memcache
+cd /home/blue/memcached-1.4.5
+./configure --prefix=/home/blue/memcached-1.4.5 --with-libevent=/home/blue/libevent-1.4.14b
+make
+make install
+```
 
 #### 启动memcache服务
 
