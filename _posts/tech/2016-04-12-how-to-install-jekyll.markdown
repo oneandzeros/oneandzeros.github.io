@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "安装jekyll准备环境"
+title:  安装jekyll准备环境
 date:   2016-04-12 16:43:26
 categories: 技术
 ---

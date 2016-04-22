@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "java Class.forName()的作用与使用总结"
+title:  Java Class.forName()的作用与使用总结
 date:   2016-04-13 16:13:26
 categories: javaBasic
 ---

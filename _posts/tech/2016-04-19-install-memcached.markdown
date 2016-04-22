@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "memcached安装"
+title:  Memcached安装
 date:   2016-04-13 16:13:26
 categories: 技术 memcached
 ---
