@@ -11,4 +11,4 @@ keywords: blog
 ### 阮一峰
 一位老师的博客。偏向前台开发，和个人技术思想。
 
-[博客地址](http://www.ruanyifeng.com)
+[博客地址](http://www.ruanyifeng.com/home.html)
