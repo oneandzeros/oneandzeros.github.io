@@ -4,7 +4,7 @@ email: tobinok@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tobin的博客 三胖他爹
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tobinok.org" # the base hostname & protocol for your site
+url: "http://tobinok.net" # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 
 # Sidebar filter
