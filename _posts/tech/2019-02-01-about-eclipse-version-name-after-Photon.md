@@ -13,6 +13,14 @@ keywords: eclipse Photon
 * Eclipse Mars (4.5)
 * Eclipse Luna (4.4)
 * Eclipse Kepler (4.3)
+* Eclipse Juno
+* Eclipse Indigo 3.7 (靛青)
+* Eclipse Helios 3.6 (太阳神)
+* Eclipse Galileo 3.5 (伽利略) 
+* Eclipse Ganymede 3.4 (木卫三，盖尼米德 )
+* Eclipse Europa 3.3 (木卫二，欧罗巴)
+* Eclipse Callisto 3.2 (木卫四，卡里斯托 )
+* Eclipse IO 3.1 (木卫1，伊奥)
 * ...
 
 eclipse官网各版本下载[地址](https://www.eclipse.org/downloads/packages/release)
