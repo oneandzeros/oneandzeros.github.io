@@ -15,11 +15,11 @@ keywords: eclipse Photon
 * Eclipse Kepler (4.3)
 * ...
 
-[eclipse官网各版本地址](https://www.eclipse.org/downloads/packages/release)
+eclipse官网各版本下载[地址](https://www.eclipse.org/downloads/packages/release)
 
-之后新版本的命名规则是以年份和月份来发布，似乎已经没有计划再单独个名称了。
+之后新版本的命名规则是以年份和月份来发布，似乎已经没有计划再单独命名了。
 
-[新版本名称说明](https://wiki.eclipse.org/SimRel/Simultaneous_Release_Cycle_FAQ#What_is_the_naming_pattern_for_the_releases_.3F)
+新版本名称规则[说明](https://wiki.eclipse.org/SimRel/Simultaneous_Release_Cycle_FAQ#What_is_the_naming_pattern_for_the_releases_.3F)
 
 看样子是准备快速迭代，每13周就发布一个版本，所以之后的版本可能会很多！
 
