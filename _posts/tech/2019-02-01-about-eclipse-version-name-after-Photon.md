@@ -1,6 +1,6 @@
 ---
 layout: post
-title: eclipse版本名称
+title: eclipse版本命名规则改变
 category: 技术
 tags: eclipse
 keywords: eclipse Photon
