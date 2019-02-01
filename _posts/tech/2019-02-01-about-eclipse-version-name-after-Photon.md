@@ -6,7 +6,7 @@ tags: eclipse
 keywords: eclipse Photon
 ---
 
-大家从eclipse Photon之后的版本开始，不再会提供以字母排序的版本名称，比如以前的：
+从eclipse Photon之后的版本开始，不再会提供以字母排序的版本名称，比如以前的：
 Eclipse Photon (4.8)
 Eclipse Oxygen (4.7)
 Eclipse Neon (4.6)
