@@ -7,13 +7,13 @@ keywords: eclipse Photon
 ---
 
 从eclipse Photon之后的版本开始，不再会提供以字母排序的版本名称，比如以前的：
-*Eclipse Photon (4.8)
-*Eclipse Oxygen (4.7)
-*Eclipse Neon (4.6)
-*Eclipse Mars (4.5)
-*Eclipse Luna (4.4)
-*Eclipse Kepler (4.3)
-*...
+* Eclipse Photon (4.8)
+* Eclipse Oxygen (4.7)
+* Eclipse Neon (4.6)
+* Eclipse Mars (4.5)
+* Eclipse Luna (4.4)
+* Eclipse Kepler (4.3)
+* ...
 
 [eclipse官网各版本地址](https://www.eclipse.org/downloads/packages/release)
 
