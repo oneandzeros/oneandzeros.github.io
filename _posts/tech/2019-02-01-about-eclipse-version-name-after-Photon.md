@@ -19,6 +19,13 @@ eclipse官网各版本下载[地址](https://www.eclipse.org/downloads/packages/
 
 之后新版本的命名规则是以年份和月份来发布，似乎已经没有计划再单独命名了。
 
+所以以后就是：
+* Eclipse **2019-03** (4.11)
+* Eclipse **2018-12** (4.10)
+* Eclipse **2018-09** (4.9)
+* Eclipse Photon (4.8)
+* Eclipse Oxygen (4.7)
+
 新版本名称规则[说明](https://wiki.eclipse.org/SimRel/Simultaneous_Release_Cycle_FAQ#What_is_the_naming_pattern_for_the_releases_.3F)
 
 看样子是准备快速迭代，每13周就发布一个版本，所以之后的版本可能会很多！
