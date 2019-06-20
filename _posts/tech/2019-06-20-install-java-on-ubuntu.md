@@ -65,7 +65,7 @@ OK
 
 ```
 重要的是这两句
-1. There are no actual Java files in this PPA.* 不解释。
+1. There are no actual Java files in this PPA.不解释。
 2. 安装Java11的介绍[https://www.linuxuprising.com/2018/10/how-to-install-oracle-java-11-in-ubuntu.html](https://www.linuxuprising.com/2018/10/how-to-install-oracle-java-11-in-ubuntu.html)
 
 
@@ -82,4 +82,5 @@ sudo apt install oracle-java11-installer
 
 参考 
 [ubuntu16.04下安装Java8详细教程](https://blog.csdn.net/mucaoyx/article/details/82949450)
+[ubunt下安装不同版本的jdk(openjdk  oraclejdk)](https://www.cnblogs.com/guxiaobei/p/8556586.html)
 
