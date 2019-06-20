@@ -83,4 +83,4 @@ sudo apt install oracle-java11-installer
 参考 
 [ubuntu16.04下安装Java8详细教程](https://blog.csdn.net/mucaoyx/article/details/82949450)
 [ubunt下安装不同版本的jdk(openjdk  oraclejdk)](https://www.cnblogs.com/guxiaobei/p/8556586.html)
-
+[Ubuntu中PPA源](https://www.cnblogs.com/EasonJim/p/7119331.html)
