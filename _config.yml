@@ -19,8 +19,9 @@ github: oneandzeros
 # dribbble: username
 
 # avatar头像及Favicon
-avatar: http://7xt9cx.com2.z0.glb.clouddn.com/me-avatar.png
-favicon: http://7xt9cx.com2.z0.glb.clouddn.com/me-favicon.ico
+#avatar: http://7xt9cx.com2.z0.glb.clouddn.com/me-avatar.png
+avatar: http://tobinok.net/assets/img/me-avatar.png
+favicon: http://tobinok.net/assets/img/me-favicon.ico
 
 # disqus 设置
 disqus:
