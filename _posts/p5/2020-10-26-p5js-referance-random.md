@@ -1,6 +1,6 @@
 ---
 layout: post
-title: p5js
+title: Random随机与因果
 category: P5JS
 tags: p5js
 keywords: javascript random
