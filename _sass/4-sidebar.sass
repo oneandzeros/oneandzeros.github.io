@@ -94,6 +94,37 @@
     box-shadow: inset $sidebar-left-width 0 0 $toc-bg
 
 
+.sidebar-tools
+  padding: 18px 14px
+  border-bottom: 1px solid $tag-border-color
+
+.sidebar-tools-label
+  margin: 0 0 8px
+  font-size: 11px
+  letter-spacing: .12em
+  text-align: center
+  color: $tag-color
+
+.sidebar-tool-link
+  display: block
+  padding: 9px 8px
+  font-size: $tag-font-size
+  line-height: 1.45
+  text-align: center
+  text-decoration: none
+  color: $tag-active-color
+  background: rgba(255, 255, 255, .08)
+  border: 1px solid $tag-border-color
+  border-radius: 2px
+  outline: none
+  transition: color .15s linear, background .15s linear, border-color .15s linear
+  &:hover,
+  &:focus
+    color: $tag-hover-color
+    background: $toc-bg
+    border-color: $toc-bg
+
+
 // Sidebar Right
 
 #search-box
